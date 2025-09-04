@@ -19,6 +19,6 @@ test "Baigorria luego de cobrar" {
   gimenez.pagarSueldo(baigorria)
 
   assert.equals(7500, baigorria.totalCobrado())
-  assert.equals(0, baigorria.cantEmpanadas())
+  assert.equals(0, baigorria.empanadasVendidas())
 
 }
